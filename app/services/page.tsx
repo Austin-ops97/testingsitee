@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { CheckCircle, Globe, Palette, Shield, ArrowRight, Calendar, FileText, Settings, Zap } from 'lucide-react'
+import { CheckCircle, Globe, Palette, Shield, ArrowRight, FileText } from 'lucide-react'
 import { ProcessTimeline } from '@/components/sqyid-system'
 
 export default function ServicesPage() {
@@ -206,28 +206,24 @@ export default function ServicesPage() {
             subtitle="Four-phase approach ensuring technical excellence and complete client confidentiality throughout engagement."
             steps={[
               {
-                number: 1,
+                number: "1",
                 title: "Initial Consultation",
-                description: "Comprehensive project assessment including technical requirements, timeline establishment, and confidentiality protocols. All discussions remain strictly privileged.",
-                icon: Calendar
+                description: "Comprehensive project assessment including technical requirements, timeline establishment, and confidentiality protocols. All discussions remain strictly privileged."
               },
               {
-                number: 2,
+                number: "2",
                 title: "Detailed Proposal",
-                description: "Written scope documentation with fixed-fee pricing, deliverable specifications, and project milestone schedule. No hidden costs or scope creep.",
-                icon: FileText
+                description: "Written scope documentation with fixed-fee pricing, deliverable specifications, and project milestone schedule. No hidden costs or scope creep."
               },
               {
-                number: 3,
+                number: "3",
                 title: "Licensed Development",
-                description: "Professional implementation with regular progress reporting, quality assurance testing, and client review checkpoints at predetermined intervals.",
-                icon: Settings
+                description: "Professional implementation with regular progress reporting, quality assurance testing, and client review checkpoints at predetermined intervals."
               },
               {
-                number: 4,
+                number: "4",
                 title: "Delivery & Support",
-                description: "Complete project handoff including documentation, staff training, and ongoing technical support arrangements as specified in engagement terms.",
-                icon: Zap
+                description: "Complete project handoff including documentation, staff training, and ongoing technical support arrangements as specified in engagement terms."
               }
             ]}
           />

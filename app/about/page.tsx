@@ -1,3 +1,5 @@
+"use client"
+
 import { Mail, Phone, Award, Shield, Target, Users, Clock, Zap } from 'lucide-react'
 
 export default function AboutPage() {
@@ -117,13 +119,11 @@ export default function AboutPage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
-                  className="px-8 py-4 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                  className="px-8 py-4 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sqyid-accent focus-visible:ring-offset-2 focus-visible:ring-offset-sqyid-bg"
                   style={{ 
                     background: 'var(--color-cta)', 
                     color: 'var(--color-cta-text)',
-                    boxShadow: 'var(--shadow-glow)',
-                    focusVisibleRingColor: 'var(--color-accent)',
-                    focusVisibleRingOffsetColor: 'var(--color-bg)'
+                    boxShadow: 'var(--shadow-glow)'
                   }}
                 >
                   Schedule Consultation
@@ -354,11 +354,7 @@ export default function AboutPage() {
                       </label>
                       <input
                         type="text"
-                        className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200"
-                        style={{ 
-                          focusRingColor: 'var(--color-accent)',
-                          focusRingOffsetColor: 'var(--color-surface)'
-                        }}
+                        className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-sqyid-accent focus:ring-offset-2 focus:ring-offset-sqyid-surface transition-all duration-200"
                         placeholder="Your name"
                       />
                     </div>
@@ -368,11 +364,7 @@ export default function AboutPage() {
                       </label>
                       <input
                         type="text"
-                        className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200"
-                        style={{ 
-                          focusRingColor: 'var(--color-accent)',
-                          focusRingOffsetColor: 'var(--color-surface)'
-                        }}
+                        className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-sqyid-accent focus:ring-offset-2 focus:ring-offset-sqyid-surface transition-all duration-200"
                         placeholder="Company name"
                       />
                     </div>
@@ -384,11 +376,7 @@ export default function AboutPage() {
                     </label>
                     <input
                       type="email"
-                      className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200"
-                      style={{ 
-                        focusRingColor: 'var(--color-accent)',
-                        focusRingOffsetColor: 'var(--color-surface)'
-                      }}
+                      className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-sqyid-accent focus:ring-offset-2 focus:ring-offset-sqyid-surface transition-all duration-200"
                       placeholder="your.email@company.com"
                     />
                   </div>
@@ -398,11 +386,7 @@ export default function AboutPage() {
                       Project Scope
                     </label>
                     <select
-                      className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200"
-                      style={{ 
-                        focusRingColor: 'var(--color-accent)',
-                        focusRingOffsetColor: 'var(--color-surface)'
-                      }}
+                      className="w-full px-4 py-3 rounded-lg border border-sqyid-border bg-sqyid-bg text-sqyid-primary focus:outline-none focus:ring-2 focus:ring-sqyid-accent focus:ring-offset-2 focus:ring-offset-sqyid-surface transition-all duration-200"
                     >
                       <option>Select service type</option>
                       <option>Website Development</option>
@@ -413,13 +397,11 @@ export default function AboutPage() {
 
                   <button
                     type="submit"
-                    className="w-full px-8 py-4 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                    className="w-full px-8 py-4 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sqyid-accent focus-visible:ring-offset-2 focus-visible:ring-offset-sqyid-surface"
                     style={{ 
                       background: 'var(--color-cta)', 
                       color: 'var(--color-cta-text)',
-                      boxShadow: 'var(--shadow-glow)',
-                      focusVisibleRingColor: 'var(--color-accent)',
-                      focusVisibleRingOffsetColor: 'var(--color-surface)'
+                      boxShadow: 'var(--shadow-glow)'
                     }}
                   >
                     Request Consultation
